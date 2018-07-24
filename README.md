@@ -1,6 +1,6 @@
-#  Electronic Health Record (EHR) normalizer
+#  Electronic Health Record (EHR) normalizer     
 
-Introduction
+### Introduction
 ------------
 
   This software converts PDF files to HTML, TXT or XML. It  uses 
@@ -12,14 +12,14 @@ XML.
 and restore lines that has been truncated by a previous PDF conversion.
  
 
-Prerequisites
+### Prerequisites
 -------------
 
   This software requires PDFMiner installed on your system (included in 
 resources).
 
 
-Directory structure
+### Directory structure
 -------------------
 
 data/
@@ -65,7 +65,7 @@ scripts/
 script can also be used individually.
  
 
-Usage
+### Usage
 -----
 
  convertPDF.pl [options] 
@@ -81,7 +81,7 @@ Usage
    --manual            Read this scripts manual.
 
 
-Examples
+### Examples
 --------
 
   The following are examples of this script:
@@ -98,7 +98,7 @@ directory.
 
 
 
-Author
+### Author
 ------
 
  Aitor Gonzalez-Agirre
@@ -107,7 +107,8 @@ Author
 
 
 
-License
+### License
 -------
 
 TBD
+
