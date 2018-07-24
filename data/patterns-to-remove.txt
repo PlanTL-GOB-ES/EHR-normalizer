@@ -1,0 +1,45 @@
+^\s*$
+^\s*Les seves dades
+^\s*Sus datos personales
+^Metge\/essa Responsable de l'Alta
+^Responsable cl.+nic: Dr\.
+^Responsable cl.+nic:
+^\s*d.{1,2}oposici
+^\s*P.+gina\s+\d+\s+de\s+\d+
+^\s*P.+g\.:\s+\d+\s+de\s+\d+
+^\s*Full\s+\d+\s+e\s+\d+
+^\s*HMTS
+^\s*Atentament,\s*$
+^\s*Atentamente,\s*$
+^\s*Responsable clínic: Dr.+\s*$
+^\s*<header>SAPS II
+^\s*MTS\s*$
+^\s*Metge Responsable:\s*$
+^\s*Adreça:\s*$
+^\s*C\.A\.P\.:\s*$
+^\s*Data Alta:  \s*$
+^\s*Data Ingr.+s Hospital:\s*$
+^\s*Data Ingr.+s Servei:\s*$ 
+^\s*Poblaci.+:\s*$ 
+^\s*Proced.+ncia:\s*$
+^\s*Servei assistencial:\s*$ 
+^\s*Sexe: Data naixement: Edat:\s*$ 
+^\s*Tel.+fon:\s*$ 
+^\s*C\.P\.:\s*$ 
+^\s*T\.I\.S\.:\s*$
+^\s*DNI\/NIF:\s*$
+^\s*N.+m\. Episodi: N.+m\. HC:\s*$
+^\s*Data ingr.+s: Hora ingr.+s:\s*$ 
+^\s*Data alta: Hora alta:\s*$
+^\s*Signat:\s*$ 
+^\s*Firmado:\s*$
+^\s*firmado:\s*$ 
+^\s*Dr\/a\.:\s*$ 
+^\s*Tel.+fons contacte fam.+lies:\s*$
+^\s*Telèfons contacte famílies:\s*$ 
+^\s*Dr\.: Dr\.:.+\s*$
+^\s*Signat:Signat:.+\s*$ 
+^\s*Dr\/a\.: A\s*$ 
+^\s*Telèfon: C.P.:\s*$
+^\s*T.I.S.: DNI\/NIF:\s*$
+^\s*Responsable clínic:.+\s*$
