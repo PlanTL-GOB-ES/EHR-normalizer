@@ -18,6 +18,8 @@ and restore lines that has been truncated by a previous PDF conversion.
   This software requires PDFMiner installed on your system (included in 
 resources).
 
+  PDFMiner is distributed under its own license (see LICENSE file).
+
 
 ### Directory structure
 -------------------
@@ -98,12 +100,12 @@ directory.
 
 
 
-### Author
+### Contact
 ------
 
  Aitor Gonzalez-Agirre
  --
- aitor.gonzalezagirre@gmail.com
+ aitor.gonzalez@bsc.es
 
 
 
