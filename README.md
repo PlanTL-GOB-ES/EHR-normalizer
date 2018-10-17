@@ -103,11 +103,7 @@ directory.
 ### Contact
 ------
 
- Aitor Gonzalez-Agirre
- 
- --
- 
- aitor.gonzalez@bsc.es
+ Aitor Gonzalez-Agirre (aitor.gonzalez@bsc.es)
 
 
 
