@@ -6,18 +6,18 @@
 This software converts PDF files into HTML, TXT or XML. First, it uses PDFMiner 
 to process PDF files and to convert them into HTML files, retaining the 
 exact layout of the documents, and then it converts these HTML files into TXT or 
-XML. 
+XML files. 
 
-Additionally, the script can detect headers from ERRs and restore those lines 
-that have been truncated by a previous PDF conversion.
- 
+Additionally, the script can detect headers from EHRs and restore those lines 
+that have been truncated by a previous PDF conversion process.
+
 
 ### Prerequisites
 -------------
 
 This software requires to have PDFMiner installed on your system (included in 
 the resources folder).
-PDFMiner is distributed under its own license (see the LICENSE file).
+PDFMiner is distributed under its own license.
 
 
 ### Directory structure
