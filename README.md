@@ -26,20 +26,23 @@ PDFMiner is distributed under its own license.
 <pre>
 data/
 This folder contains relevant information for the conversion process:
-<pre>
+
   headers.txt
+  
   This file contains a list of allowed headers for your EHRs. The 
   normalizer tries to match detected header candidates to this list.
 	
   subheaders.txt
+  
   This file contains a list of allowed subheaders for your EHRs. The  
   normalizer tries to match detected header candidates to this list. 
   This functionality is not implemented yet.
 	
   patterns-to-remove.txt
+  
   This file contains a list of RegEx patterns that you want to remove from 
   for your EHRs (e.g. privacy notes).
-</pre>
+
 
 documents/
 Default root directory of source PDF files. It is mandatory to place all 
