@@ -3,13 +3,13 @@
 ### Introduction
 ------------
 
-This software converts PDF files into HTML, TXT or XML. It  uses 
-PDFMiner to process PDF files and to convert them into HTML files retaining the 
-exact layout of the documents, and then it can convert these HTML files into TXT or 
+This software converts PDF files into HTML, TXT or XML. First, it uses PDFMiner 
+to process PDF files and to convert them into HTML files, retaining the 
+exact layout of the documents, and then it converts these HTML files into TXT or 
 XML. 
 
-Additionally, the script can detect headers from clinical records 
-and restore lines that have been truncated by a previous PDF conversion.
+Additionally, the script can detect headers from ERRs and restore those lines 
+that have been truncated by a previous PDF conversion.
  
 
 ### Prerequisites
@@ -17,7 +17,7 @@ and restore lines that have been truncated by a previous PDF conversion.
 
 This software requires to have PDFMiner installed on your system (included in 
 the resources folder).
-PDFMiner is distributed under its own license (see LICENSE file).
+PDFMiner is distributed under its own license (see the LICENSE file).
 
 
 ### Directory structure
@@ -28,34 +28,34 @@ data/
 This folder contains relevant information for the conversion process:
 <pre>
   headers.txt
-  This file contains a list of allowed headers for your clinical records. The 
-  normalizer tries to match detected headers candidates to this list.
+  This file contains a list of allowed headers for your EHRs. The 
+  normalizer tries to match detected header candidates to this list.
 	
   subheaders.txt
-  This file contains a list of allowed subheaders for your clinical records. 
-  The normalizer tries to match detected headers candidates to this list. 
-  This functionality is not implemente yet.
+  This file contains a list of allowed subheaders for your EHRs. The  
+  normalizer tries to match detected header candidates to this list. 
+  This functionality is not implemented yet.
 	
   patterns-to-remove.txt
-  This file contains a list of regex patterns that you want to remove from 
-  for your clinical records (e.x: privacy notes).
+  This file contains a list of RegEx patterns that you want to remove from 
+  for your EHRs (e.g. privacy notes).
 </pre>
 
 documents/
-Default root directory of source PDF files. Is mandatory to place all 
+Default root directory of source PDF files. It is mandatory to place all 
 your PDF files inside a "PDF" folder. Your "PDF" folder can contain other 
 sub-directories. You can also use your our root folder using command-line
-argument.
+arguments.
 
 resources/
-This folder contains PDFMiner. PDFMiner must be installed in your
+This folder contains PDFMiner, which must be installed in your
 system. If you want to use other software to convert from PDF to HTML
-or TXT you must change pdf-to-html.pl script to update the call to
-PDFMiner.
+or TXT you must change the script pdf-to-html.pl to call the software you 
+want to use.
 
 scripts/
-This folder contains the scripts to perform partial convertions. These
-script can also be used individually.
+This folder contains the scripts needed to perform partial convertions. These
+scripts can also be used individually.
 </pre> 
 
 ### Usage
