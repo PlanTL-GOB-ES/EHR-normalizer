@@ -3,97 +3,90 @@
 ### Introduction
 ------------
 
-  This software converts PDF files to HTML, TXT or XML. It  uses 
-PDFMiner to process PDF files and convert them into HTML files with 
-exact layout, and then it can convert these HTML files into TXT or 
+This software converts PDF files into HTML, TXT or XML. It  uses 
+PDFMiner to process PDF files and to convert them into HTML files retaining the 
+exact layout of the documents, and then it can convert these HTML files into TXT or 
 XML. 
 
-  Additionally, the script can detect headers from clinical records 
-and restore lines that has been truncated by a previous PDF conversion.
+Additionally, the script can detect headers from clinical records 
+and restore lines that have been truncated by a previous PDF conversion.
  
 
 ### Prerequisites
 -------------
 
-  This software requires PDFMiner installed on your system (included in 
-resources).
-
-  PDFMiner is distributed under its own license (see LICENSE file).
+This software requires to have PDFMiner installed on your system (included in 
+the resources folder).
+PDFMiner is distributed under its own license (see LICENSE file).
 
 
 ### Directory structure
 -------------------
 
+<pre>
 data/
-
-  This folder contains relevant information for the conversion process:
-	
+This folder contains relevant information for the conversion process:
+<pre>
   headers.txt
-	This file contains a list of allowed headers for your clinical 
-	records.The normalizer tries to match detected headers candidates 
-	to this list.
-
+  This file contains a list of allowed headers for your clinical records. The 
+  normalizer tries to match detected headers candidates to this list.
 	
   subheaders.txt
-	This file contains a list of allowed subheaders for your clinical 
-	records.The normalizer tries to match detected headers candidates 
-	to this list. This functionality is not implemente yet.
-
+  This file contains a list of allowed subheaders for your clinical records. 
+  The normalizer tries to match detected headers candidates to this list. 
+  This functionality is not implemente yet.
 	
   patterns-to-remove.txt
-	This file contains a list of regex patterns that you want to remove
-	from for your clinical records (e.x: privacy notes).
-
+  This file contains a list of regex patterns that you want to remove from 
+  for your clinical records (e.x: privacy notes).
+</pre>
 
 documents/
-
-  Default root directory of source PDF files. Is mandatory to place all 
+Default root directory of source PDF files. Is mandatory to place all 
 your PDF files inside a "PDF" folder. Your "PDF" folder can contain other 
 sub-directories. You can also use your our root folder using command-line
 argument.
 
-
 resources/
-
-  This folder contains PDFMiner. PDFMiner must be installed in your
+This folder contains PDFMiner. PDFMiner must be installed in your
 system. If you want to use other software to convert from PDF to HTML
 or TXT you must change pdf-to-html.pl script to update the call to
 PDFMiner.
 
-
 scripts/
-
-  This folder contains the scripts to perform partial convertions. These
+This folder contains the scripts to perform partial convertions. These
 script can also be used individually.
- 
+</pre> 
 
 ### Usage
 -----
 
- convertPDF.pl [options] 
+convertPDF.pl [options] 
 
-  Help Options:
-   --input format      Input format: PDF, HTML or TXT.
-   --output format     Output format: HTML, TXT or XML.
-   --sim number        Similarity threshold for header detection.
-   --defheader string  Default header if first line is not a header.
-   --headers           Use format information to identify possible headers.
-   --useformat         Use format information to identify other characteristics.
-   --help              Show this scripts help information.
-   --manual            Read this scripts manual.
-
+Help Options:
+<pre>
+--input format      Input format: PDF, HTML or TXT.
+--output format     Output format: HTML, TXT or XML.
+--sim number        Similarity threshold for header detection.
+--defheader string  Default header if first line is not a header.
+--headers           Use format information to identify possible headers.
+--useformat         Use format information to identify other characteristics.
+--help              Show this scripts help information.
+--manual            Read this scripts manual.
+</pre>
 
 ### Examples
 --------
 
-  The following are examples of this script:
-
+The following are examples of this script:
+<pre>
    $ convertPDF.pl --input TXT
    $ convertPDF.pl --input HTML --output TXT --sim 0.78
    $ convertPDF.pl --input PDF --output XML (does this by default)
    $ convertPDF.pl --useformat
    $ convertPDF.pl --headers --useformat
    $ convertPDF.pl --dir /home/user/my-root-dir/
+</pre>
 
   Note: Place all PDF files inside a "PDF/" directory of your root
 directory.
