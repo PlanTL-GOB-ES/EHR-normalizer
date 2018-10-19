@@ -27,22 +27,15 @@ PDFMiner is distributed under its own license.
 data/
 This folder contains relevant information for the conversion process:
 
-  headers.txt
-  
-  This file contains a list of allowed headers for your EHRs. The 
-  normalizer tries to match detected header candidates to this list.
+headers.txt. This file contains a list of allowed headers for your EHRs. The 
+normalizer tries to match detected header candidates to this list.
 	
-  subheaders.txt
-  
-  This file contains a list of allowed subheaders for your EHRs. The  
-  normalizer tries to match detected header candidates to this list. 
-  This functionality is not implemented yet.
-	
-  patterns-to-remove.txt
-  
-  This file contains a list of RegEx patterns that you want to remove from 
-  for your EHRs (e.g. privacy notes).
+subheaders.txt. This file contains a list of allowed subheaders for your EHRs.
+The normalizer tries to match detected header candidates to this list. This 
+functionality is not implemented yet.
 
+patterns-to-remove.txt. This file contains a list of RegEx patterns that you 
+want to remove from for your EHRs (e.g. privacy notes).
 
 documents/
 Default root directory of source PDF files. It is mandatory to place all 
@@ -61,12 +54,13 @@ This folder contains the scripts needed to perform partial convertions. These
 scripts can also be used individually.
 </pre> 
 
+
 ### Usage
 -----
 
 convertPDF.pl [options] 
 
-Help Options:
+Options:
 <pre>
 --input format      Input format: PDF, HTML or TXT.
 --output format     Output format: HTML, TXT or XML.
@@ -78,10 +72,10 @@ Help Options:
 --manual            Read this scripts manual.
 </pre>
 
+
 ### Examples
 --------
 
-The following are examples of this script:
 <pre>
    $ convertPDF.pl --input TXT
    $ convertPDF.pl --input HTML --output TXT --sim 0.78
@@ -91,16 +85,13 @@ The following are examples of this script:
    $ convertPDF.pl --dir /home/user/my-root-dir/
 </pre>
 
-  Note: Place all PDF files inside a "PDF/" directory of your root
-directory.
-
+Note: Place all PDF files inside a "PDF/" directory of your root directory.
 
 
 ### Contact
 ------
 
- Aitor Gonzalez-Agirre (aitor.gonzalez@bsc.es)
-
+Aitor Gonzalez-Agirre (aitor.gonzalez@bsc.es)
 
 
 ### License
