@@ -3,7 +3,7 @@
 ### Introduction
 ------------
 
-This software converts PDF files into HTML, TXT or XML. First, it uses PDFMiner 
+This software converts PDF files into HTML, TXT or XML files. First, it uses PDFMiner 
 to process PDF files and to convert them into HTML files, retaining the 
 exact layout of the documents, and then it converts these HTML files into TXT or 
 XML files. 
@@ -16,8 +16,7 @@ that have been truncated by a previous PDF conversion process.
 -------------
 
 This software requires to have PDFMiner installed on your system (included in 
-the resources folder).
-PDFMiner is distributed under its own license.
+the resources directory). Note that PDFMiner is distributed under its own license.
 
 
 ### Directory structure
@@ -25,7 +24,7 @@ PDFMiner is distributed under its own license.
 
 <pre>
 data/
-This folder contains relevant information for the conversion process:
+This directory contains relevant information for the conversion process:
 
   - headers.txt. This file contains a list of allowed headers for your EHRs. The 
   normalizer tries to match detected header candidates to this list.
@@ -40,17 +39,17 @@ This folder contains relevant information for the conversion process:
 documents/
 Default root directory of source PDF files. It is mandatory to place all 
 your PDF files inside a "PDF" folder. Your "PDF" folder can contain other 
-sub-directories. You can also use your our root folder using command-line
+sub-directories. You can also use your our root directory using command-line
 arguments.
 
 resources/
-This folder contains PDFMiner, which must be installed in your
-system. If you want to use other software to convert from PDF to HTML
+This directory contains PDFMiner, which must be installed in your
+system. If you want to use another software to convert from PDF to HTML
 or TXT you must change the script pdf-to-html.pl to call the software you 
 want to use.
 
 scripts/
-This folder contains the scripts needed to perform partial convertions. These
+This directory contains the scripts needed to perform partial convertions. These
 scripts can also be used individually.
 </pre> 
 
@@ -84,8 +83,6 @@ $ convertPDF.pl --useformat
 $ convertPDF.pl --headers --useformat
 $ convertPDF.pl --dir /home/user/my-root-dir/
 </pre>
-
-Note: Place all PDF files inside a "PDF/" directory of your root directory.
 
 
 ### Contact
