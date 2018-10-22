@@ -24,7 +24,7 @@ the resources directory). Note that PDFMiner is distributed under its own licens
 
 <pre>
 data/
-This directory contains relevant information for the conversion process:
+This folder contains relevant information for the conversion process:
 
   - headers.txt. This file contains a list of allowed headers for your EHRs. The 
   normalizer tries to match detected header candidates to this list.
@@ -37,19 +37,19 @@ This directory contains relevant information for the conversion process:
   want to remove from for your EHRs (e.g. privacy notes).
 
 documents/
-Default root directory of source PDF files. It is mandatory to place all 
+Default root folder of source PDF files. It is mandatory to place all 
 your PDF files inside a "PDF" folder. Your "PDF" folder can contain other 
 sub-directories. You can also use your our root directory using command-line
 arguments.
 
 resources/
-This directory contains PDFMiner, which must be installed in your
-system. If you want to use another software to convert from PDF to HTML
-or TXT you must change the script pdf-to-html.pl to call the software you 
-want to use.
+This folder contains PDFMiner, which must be installed in your system. If 
+you want to use another software to convert from PDF to HTML or TXT, you must 
+change the script pdf-to-html.pl to call the software you want to use.
+
 
 scripts/
-This directory contains the scripts needed to perform partial convertions. These
+This folder contains the scripts needed to perform partial convertions. These
 scripts can also be used individually.
 </pre> 
 
