@@ -15,8 +15,8 @@ that have been truncated by a previous PDF conversion process.
 ### Prerequisites
 -------------
 
-This software requires to have PDFMiner installed on your system (included in 
-the resources folder). Note that PDFMiner is distributed under its own license.
+This software requires to have PDFMiner installed on your system, included in 
+the resources folder. Note that PDFMiner is distributed under its own license.
 
 
 ### Directory structure
@@ -37,16 +37,14 @@ This folder contains relevant information for the conversion process:
   want to remove from for your EHRs (e.g. privacy notes).
 
 documents/
-Default root folder of source PDF files. It is mandatory to place all 
-your PDF files inside a "PDF" folder. Your "PDF" folder can contain other 
-sub-directories. You can also use your our root directory using command-line
-arguments.
+Default root folder of source PDF files. It is mandatory to place all your PDF
+files inside a "PDF" folder. Your "PDF" folder can contain other sub-directories. 
+You can also use your our root folder using command-line arguments.
 
 resources/
 This folder contains PDFMiner, which must be installed in your system. If 
 you want to use another software to convert from PDF to HTML or TXT, you must 
 change the script pdf-to-html.pl to call the software you want to use.
-
 
 scripts/
 This folder contains the scripts needed to perform partial convertions. These
