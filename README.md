@@ -16,7 +16,7 @@ that have been truncated by a previous PDF conversion process.
 -------------
 
 This software requires to have PDFMiner installed on your system (included in 
-the resources directory). Note that PDFMiner is distributed under its own license.
+the resources folder). Note that PDFMiner is distributed under its own license.
 
 
 ### Directory structure
