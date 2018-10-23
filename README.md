@@ -63,8 +63,8 @@ Options:
 --output format     Output format: HTML, TXT or XML (Default: XML).
 --sim number        Similarity threshold for header detection (Default: 0.75).
 --defheader string  Default header if first line is not a header (Default: DEFAULT_HEADER).
---headers           Use format information to identify possible headers (Default: Desactivated).
---useformat         Use format information to identify other characteristics (Default: Desactivated).
+--headers           Use format information to identify possible headers (Default: Deactivated).
+--useformat         Use format information to identify other characteristics (Default: Deactivated).
 --help              Show this scripts help information.
 --manual            Read this scripts manual.
 --dir               Set root directory for your documents (Default: Documents/)	
