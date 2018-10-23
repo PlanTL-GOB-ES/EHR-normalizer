@@ -105,7 +105,7 @@ sub processHTML {
     my $path = shift;
 
     # Open the directory.
-    opendir (DIR, $path) or die "Unable to open $path: $!";
+    opendir (DIR, $path) or die "Unable to open $path: $! (Please place your files in $path directory)";
 
     # Read in the files.
     # Skip '.' and '..' files,
