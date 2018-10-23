@@ -15,8 +15,8 @@ that have been truncated by a previous PDF conversion process.
 ### Prerequisites
 -------------
 
-This software requires to have PDFMiner (included in the resources folder) installed 
-on your system. Note that PDFMiner is distributed under its own license.
+This software requires to have PDFMiner installed on your system. Note that PDFMiner 
+is distributed under its own license.
 
 
 ### Directory structure
