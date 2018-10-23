@@ -15,14 +15,15 @@ convertPDF - An script to convert PDF files into HTML, TXT of XML files.
  convertPDF.pl [options] 
 
   Help Options:
-   --input format      Input format: PDF, HTML or TXT.
-   --output format     Output format: HTML, TXT or XML.
-   --sim number        Similarity threshold for header detection.
-   --defheader string  Default header if first line is not a header.
-   --headers           Use format information to identify possible headers.
-   --useformat         Use format information to identify other characteristics.
+   --input format      Input format: PDF, HTML or TXT (Default: PDF)
+   --output format     Output format: HTML, TXT or XML (Default: XML).
+   --sim number        Similarity threshold for header detection (Default: 0.75).
+   --defheader string  Default header if first line is not a header (Default: DEFAULT_HEADER).
+   --headers           Use format information to identify possible headers (Default: Desactivated).
+   --useformat         Use format information to identify other characteristics (Default: Desactivated).
    --help              Show this scripts help information.
    --manual            Read this scripts manual.
+   --dir               Set root directory for your documents (Default: Documents/)	
 
 =cut
 
