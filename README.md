@@ -1,4 +1,4 @@
-#  Electronic Health Record (EHR) normalizer     
+# EHR-normalizer: Electronic Health Record (EHR) normalizer     
 
 ### Introduction
 ------------
