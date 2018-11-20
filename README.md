@@ -12,6 +12,11 @@ Additionally, the script can detect headers from EHRs and restore those lines
 that have been truncated by a previous PDF conversion process.
 
 
+##  Digital Object Identifier (DOI)
+
+https://doi.org/10.5281/zenodo.1492657
+
+
 ### Prerequisites
 -------------
 
