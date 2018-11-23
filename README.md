@@ -1,12 +1,12 @@
 # EHR-normalizer: Electronic Health Record (EHR) normalizer     
 
 
-###  Digital Object Identifier (DOI)
+##  Digital Object Identifier (DOI)
 
 https://doi.org/10.5281/zenodo.1492657
 
 
-### Introduction
+## Introduction
 ------------
 
 This software converts PDF files into HTML, TXT or XML files. First, it uses PDFMiner 
@@ -20,14 +20,14 @@ that have been truncated by a previous PDF conversion process.
 Language covered: Spanish and Catalan.
 
 
-### Prerequisites
+## Prerequisites
 -------------
 
 This software requires to have PDFMiner installed on your system. Note that PDFMiner 
 is distributed under its own license.
 
 
-### Directory structure
+## Directory structure
 -------------------
 
 <pre>
@@ -60,7 +60,7 @@ scripts can also be used individually.
 </pre> 
 
 
-### Usage
+## Usage
 -----
 
 convertPDF.pl [options] 
@@ -79,7 +79,7 @@ Options:
 </pre>
 
 
-### Examples
+## Examples
 --------
 
 <pre>
@@ -92,13 +92,13 @@ $ convertPDF.pl --dir /home/user/my-root-dir/
 </pre>
 
 
-### Contact
+## Contact
 ------
 
 Aitor Gonzalez-Agirre (aitor.gonzalez@bsc.es)
 
 
-### License
+## License
 -------
 
 Copyright (c) 2017-2018 Secretaría de Estado para el Avance Digital (SEAD)
