@@ -15,7 +15,7 @@ exact layout of the documents, and then it converts these HTML files into TXT or
 XML files. 
 
 Additionally, the script can perform EHR normalization by detecting headers from documents 
-and map those sections to any desired archetype. It can also restore the lines that have 
+and map those sections into any desired archetype. It can also restore the lines that have 
 been truncated by a previous conversion process from PDF to TXT/XML.
 
 Covered languages: Spanish and Catalan.
