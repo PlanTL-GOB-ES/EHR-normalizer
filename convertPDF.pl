@@ -8,7 +8,7 @@
 
 =head1 NAME
 
-convertPDF - An script to convert PDF files into HTML, TXT of XML files.
+convertPDF - A script to convert PDF files into HTML, TXT of XML files.
 
 =head1 SYNOPSIS
 
