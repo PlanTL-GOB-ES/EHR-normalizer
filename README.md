@@ -17,7 +17,7 @@ XML files.
 Additionally, the script can detect headers from EHRs and restore those lines 
 that have been truncated by a previous PDF conversion process.
 
-Language covered: Spanish and Catalan.
+Languages covered: Spanish and Catalan.
 
 
 ## Prerequisites
