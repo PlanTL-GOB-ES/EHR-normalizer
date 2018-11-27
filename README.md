@@ -18,7 +18,7 @@ Additionally, the script can perform EHR normalization by detecting headers from
 and map those sections to any desired archetype. It can also restore the lines that have 
 been truncated by a previous conversion process from PDF to TXT/XML.
 
-Languages covered: Spanish and Catalan.
+Covered languages: Spanish and Catalan.
 
 
 ## Prerequisites
