@@ -84,12 +84,11 @@ Options:
 --------
 
 <pre>
-$ convertPDF.pl --input TXT
-$ convertPDF.pl --input HTML --output TXT --sim 0.78
-$ convertPDF.pl --input PDF --output XML (does this by default)
-$ convertPDF.pl --useformat
-$ convertPDF.pl --headers --useformat
-$ convertPDF.pl --dir /home/user/my-root-dir/
+$ ./convertPDF.pl --input TXT
+$ ./convertPDF.pl --input HTML --output TXT --sim 0.78
+$ ./convertPDF.pl --useformat
+$ ./convertPDF.pl --headers --useformat
+$ ./convertPDF.pl --dir /home/user/my-root-dir/
 </pre>
 
 
