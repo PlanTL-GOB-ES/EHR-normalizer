@@ -22,10 +22,6 @@ document to PDF.
 Covered languages: Spanish and Catalan.
 
 
-
-Covered languages: Spanish and Catalan.
-
-
 ## Prerequisites
 -------------
 
