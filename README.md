@@ -89,7 +89,7 @@ It is possible to configure the behavior of this software using the different op
   to detect text with different characteristics that are not part of the report (privacy 
   information, page footings, etc.).
 
-The user can select the options using the command line:
+The user can select the different options using the command line:
 
 	convertPDF.pl [options] 
 
