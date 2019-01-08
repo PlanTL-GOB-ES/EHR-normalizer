@@ -9,14 +9,19 @@ https://doi.org/10.5281/zenodo.1492657
 ## Introduction
 ------------
 
-This software converts PDF files into HTML, TXT or XML files. First, it uses PDFMiner 
-to process PDF files and to convert them into HTML files, retaining the 
-exact layout of the documents, and then it converts these HTML files into TXT or 
-XML files. 
+This software converts PDF files into HTML, TXT or XML files. It makes use of 
+PDFMiner to process PDF files and to convert them into HTML files, retaining the 
+exact layout of the documents, and then it can convert these HTML files into TXT 
+or XML files according to the options chosen by the user.
 
-Additionally, the script can perform EHR normalization by detecting headers from documents 
-and map those sections into any desired archetype. It can also restore the lines that have 
-been truncated by a previous conversion process from PDF to TXT/XML.
+Additionally, the script can perform EHR normalization by detecting headers from
+documents and mapping those sections into any desired archetype. It can also restore
+the lines that have been truncated by a previous conversion process from the original
+document to PDF.
+
+Covered languages: Spanish and Catalan.
+
+
 
 Covered languages: Spanish and Catalan.
 
@@ -64,7 +69,29 @@ scripts can also be used individually.
 ## Usage
 -----
 
-convertPDF.pl [options] 
+It is possible to configure the behavior of this software using the different options.
+
+  - The input and output format options allows to perform only part of the conversion. 
+  This is useful if your input files are already in TXT format or if you do not need 
+  to convert them to XML.
+  
+  - The sim parameter allows to define the tolerance when detecting headers. A lower 
+  similarity will have a higher recall but a lower precision.
+  
+  - The defheader parameter allows to define a string that will be the header of the 
+  first section if a header is not detected at the beginning of the EHR. This is useful 
+  if your documents usually start without a header.
+  
+  - The header parameter controls whether EHR-normalizer will use format information to 
+  detect the headers (text size, underlined text, etc.).
+  
+  - The useformat parameter controls whether EHR-normalizer will use format information 
+  to detect text with different characteristics that are not part of the report (privacy 
+  information, page footings, etc.).
+
+The user can select the options using the command line:
+
+	convertPDF.pl [options] 
 
 Options:
 <pre>
