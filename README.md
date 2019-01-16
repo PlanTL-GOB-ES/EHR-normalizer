@@ -51,6 +51,9 @@ Default root folder of source PDF files. It is mandatory to place all your PDF
 files inside a "PDF" folder. Your "PDF" folder can contain other sub-directories. 
 You can also use your our root folder using command-line arguments.
 
+Output HTML, TXT and XML files are stored in this folder under the automatically
+generated HTML, TXT or XML folders.
+
 resources/
 This folder contains PDFMiner, which must be installed in your system. If 
 you want to use another software to convert from PDF to HTML or TXT, you must 
