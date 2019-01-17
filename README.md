@@ -1,11 +1,6 @@
 # EHR-normalizer: Electronic Health Record (EHR) normalizer     
 
 
-##  Digital Object Identifier (DOI)
-
-https://doi.org/10.5281/zenodo.1492657
-
-
 ## Introduction
 ------------
 
