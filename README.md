@@ -82,11 +82,14 @@ It is possible to configure the behavior of this software using the different op
   if your documents usually start without a header.
   
   - The header parameter controls whether EHR-normalizer will use format information to 
-  detect the headers (text size, underlined text, etc.).
+  detect the headers. For instance, it can detect headers using the font size (headers
+  are usually written in a bigger font size) or if the text is underlined or in bold 
+  letters.
   
-  - The useformat parameter controls whether EHR-normalizer will use format information 
-  to detect text with different characteristics that are not part of the report (privacy 
-  information, page footings, etc.).
+  - The useformat parameter controls whether EHR-normalizer will use format additional
+  information to detect text with different characteristics that are not part of the 
+  report. For instance, privacy information and page footings are usually written in a
+  smaller font size or in cursive.
 
 The user can select the different options using the command line:
 
